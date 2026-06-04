@@ -6,16 +6,56 @@
     <title>Plantas para tu hogar</title>
 </head>
 <body>
-    <div>
-        <h1>Decora tu hogar</h1>
-        <h2>Plantas adecuadas para cada espacio</h2>
-        <h3>Beneficios de tener plantas en casa</h3>
-        <ol>
-            <li>Mejoran la calidad del aire</li>
-            <li>Aumentan la humedad</li>
-            <li>Reducen el estrés</li>
-        </ol>  
-        <p>Descubre las mejores plantas para decorar tu hogar y mejorar tu calidad de vida.</p>
+    <header>
+        <h1>Bienvenido a Plantas para tu hogar</h1>
+        <!--Logo de la empresa-->
+       <svg width="50px" height="50px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="48" fill="white" fill-opacity="0.01"/>
+<path d="M31 43C31 43 18 44 11 36C4 28 4 4 4 4C4 4 28 3 36 9C44 15 42 32 42 32" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M44 44C44 44 32.8207 35.5515 26 28C19.1793 20.4485 16 13 16 13" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 28L27 15" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 28L16 27" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="ornamentales.html">Plantas Ornamentales</a></li>
+                <li><a href="medicinales.html">Plantas Medicinales</a></li>
+                <li><a href="comestibles.html">Plantas Comestibles</a></li>
+                <li><a href="aromaticas.html">Plantas Aromáticas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> 
+    <article>
+        <section>
+             <h2>¿Por qué tener plantas en casa?</h2>
+             <p>Las plantas no solo embellecen nuestros hogares, sino que también ofrecen numerosos <b>beneficios</b> para nuestra salud y bienestar.
+                 <br> Tener plantas en casa puede mejorar la <i>calidad del aire</i>, aumentar la humedad, <em>reducir el estrés</em> y promover un ambiente más relajante.
+                 <br> Además, cuidar de las plantas puede ser una <mark>actividad terapéutica</mark> que nos conecta con la naturaleza y nos brinda una sensación de logro al verlas crecer y florecer.</p>
+        </section>  
+        <section>
+            <h1><u>Decora tu hogar</u></h1>
+            <h2>Plantas adecuadas para cada espacio</h2>
+            <h3>Beneficios de tener plantas en casa</h3>
+            <ol>
+                <li>Mejoran la calidad del aire</li>
+                <li>Aumentan la humedad</li>
+                <li>Reducen el estrés</li>
+            </ol>  
+            <p>Descubre las mejores plantas para decorar tu hogar y mejorar tu calidad de vida.</p>
+        <section>
+            <video controls autoplay loop width="320" height="240">
+                <source src="assets/15740052_1080_1920_60fps.mp4" type="video/mp4">
+            </video>   
+        </section>
+        <section> 
+            <audio controls autoplay loop >
+                <source src="assets/crickets-birds-in-windy-meadow-ivo-vicic-1-01-42.mp3" type="audio/mp3">
+            </audio>
+        </section>
+        </section>
+        <section>
         <h3> 
             ¿Qué tipos de plantas existen según sus usos?
         </h3>
@@ -25,8 +65,10 @@
             <li><span><a href="comestibles.html">Comestibles</a></span></li>
             <li><span><a href="aromaticas.html">Aromáticas</a></span></li>
         </ul>
-    </div>
-    <div>
+        </section>
+    </article>  
+    <hr>
+    <section>
         <table border="1" cellpadding="12">
             <caption>Lista de plantas  </caption>
             <thead bgcolor="#edf9f0">
@@ -58,53 +100,67 @@
                 </tr>
             </tbody>
         </table>
-    </div>
-    <div> 
+    </section>
+    <!--Formulario de búsqueda para encontrar la planta perfecta -->
+    <section> 
         <h2>Encuentra la planta perfecta para ti de acuerdo a tu espacio</h2>
         <form>
-            <label for="altura">Altura máxima (cm):</label>
-            <input type="number" name="altura" placeholder="Altura máxima (cm)">
-            <br> 
-            <label for="ancho">Ancho máximo (cm):</label>
-            <input type="number" name="ancho" placeholder="Ancho máximo (cm)">
-            <br>
-             <label for="floracion">¿Quieres que florezca?</label>
-            <input type="checkbox" id="floracion" name="floracion" value="si">
-            <br>
-           <label for="color-flores">Color de las flores:</label>
-            <input type="color" name="color-flores" placeholder="Color de las flores">
-            <br>
-            <label for="dificultad-cuidado">Dificultad de cuidado:</label>
-            <input type="range" name="dificultad-cuidado" min="1" max="5" value="3">    
-            <br>
-            <fieldset>
-                <legend>Selecciona el tipo de espacio</legend>
-                <label for="interior">Interior</label>
-                <input type="radio" id="interior" name="espacio" value="interior">
-                <label for="exterior">Exterior</label>
-                <input type="radio" id="exterior" name="espacio" value="exterior">
-            </fieldset>
-            <br>
-            <fieldset>
-                <legend>Selecciona el nivel de luz</legend>
-                <label for="luz-baja">Baja</label>
-                <input type="radio" id="luz-baja" name="luz" value="baja">
-                <label for="luz-media">Media</label>
-                <input type="radio" id="luz-media" name="luz" value="media">
-                <label for="luz-alta">Alta</label>
-                <input type="radio" id="luz-alta" name="luz" value="alta">
-            </fieldset>
-            <br>
+            <div>
+                <label for="altura">Altura máxima (cm):</label>
+                <input type="number" name="altura" placeholder="Altura máxima (cm)">
+            </div>
+            <div>
+                <label for="ancho">Ancho máximo (cm):</label>
+                <input type="number" name="ancho" placeholder="Ancho máximo (cm)">
+            </div>
+            <div>
+                <label for="floracion">¿Quieres que florezca?</label>
+                <input type="checkbox" id="floracion" name="floracion" value="si">
+            </div>
+            <div>
+                <label for="color-flores">Color de las flores:</label>
+                <input type="color" name="color-flores" placeholder="Color de las flores">
+            </div>
+            <div>
+                <label for="dificultad-cuidado">Dificultad de cuidado:</label>
+                <input type="range" name="dificultad-cuidado" min="1" max="5" value="3">
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Selecciona el tipo de espacio</legend>
+                    <label for="interior">Interior</label>
+                    <input type="radio" id="interior" name="espacio" value="interior">
+                    <label for="exterior">Exterior</label>
+                    <input type="radio" id="exterior" name="espacio" value="exterior">
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Selecciona el nivel de luz</legend>
+                    <label for="luz-baja">Baja</label>
+                    <input type="radio" id="luz-baja" name="luz" value="baja">
+                    <label for="luz-media">Media</label>
+                    <input type="radio" id="luz-media" name="luz" value="media">
+                    <label for="luz-alta">Alta</label>
+                    <input type="radio" id="luz-alta" name="luz" value="alta">
+                </fieldset>
+            </div>
+            <div>
             <select name="frecuencia-riego" id="frecuencia-riego">
                 <option value="">Selecciona la frecuencia de riego</option>
                 <option value="diario">Diario</option>
                 <option value="semanal">Semanal</option>
                 <option value="quincenal">Quincenal</option>
             </select>
-            <br>
+            </div>
             <input type="submit" value="Buscar planta">
-
         </form>
-    </div>
+    </section>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dnZ8KmxRaSA?si=UMCa9xfM0N3_iSPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+    <footer>
+        <p>&copy; <small>Plantas para tu hogar. Todos los derechos reservados.</small> </p>
+        <p>&starf;Contacto: <a href="mailto:info@plantasparatuhogar.com">info&commat;plantasparatuhogar.com</a></p>   
+    </footer>   
 </body>
 </html>
