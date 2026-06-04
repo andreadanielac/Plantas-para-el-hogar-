@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas para tu hogar</title>
+</head>
+<body>
+    <div>
+        <h1>Decora tu hogar</h1>
+        <h2>Plantas adecuadas para cada espacio</h2>
+        <h3>Beneficios de tener plantas en casa</h3>
+        <ol>
+            <li>Mejoran la calidad del aire</li>
+            <li>Aumentan la humedad</li>
+            <li>Reducen el estrés</li>
+        </ol>  
+        <p>Descubre las mejores plantas para decorar tu hogar y mejorar tu calidad de vida.</p>
+        <h3> 
+            ¿Qué tipos de plantas existen según sus usos?
+        </h3>
+        <ul>
+            <li><span><a href="ornamentales.html">Ornamentales</a></span></li>
+            <li><span><a href="medicinales.html">Medicinales</a></span></li>
+            <li><span><a href="comestibles.html">Comestibles</a></span></li>
+            <li><span><a href="aromaticas.html">Aromáticas</a></span></li>
+        </ul>
+    </div>
+    <div>
+        <table border="1" cellpadding="12">
+            <caption>Lista de plantas  </caption>
+            <thead bgcolor="#edf9f0">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Cuidados</th>
+                    <th>Imagen</th>
+                </tr>
+            </thead>
+            <tbody align="center">
+                <tr>
+                    <td>Helecho</td>
+                    <td>Planta de hojas verdes y delicadas</td>
+                    <td>Riego moderado, luz indirecta</td>
+                    <td><img src="img/Helecho3.jpg" alt="Helecho" width="300"></td>
+                </tr>
+                <tr>
+                    <td>Cactus</td>
+                    <td>Planta suculenta con espinas</td>
+                    <td>Poca agua, mucha luz solar</td>
+                    <td><img src="img/cactus2.jpeg" alt="Cactus" width="300"></td>    
+                </tr>
+                <tr>
+                    <td>Orquídea</td>
+                    <td>Planta de flores coloridas y elegantes</td>
+                    <td>Riego regular, humedad alta</td>
+                    <td><img src="img/orquideas.jpg" alt="Orquídea" width="300"></td>        
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div> 
+        <h2>Encuentra la planta perfecta para ti de acuerdo a tu espacio</h2>
+        <form>
+            <label for="altura">Altura máxima (cm):</label>
+            <input type="number" name="altura" placeholder="Altura máxima (cm)">
+            <br> 
+            <label for="ancho">Ancho máximo (cm):</label>
+            <input type="number" name="ancho" placeholder="Ancho máximo (cm)">
+            <br>
+             <label for="floracion">¿Quieres que florezca?</label>
+            <input type="checkbox" id="floracion" name="floracion" value="si">
+            <br>
+           <label for="color-flores">Color de las flores:</label>
+            <input type="color" name="color-flores" placeholder="Color de las flores">
+            <br>
+            <label for="dificultad-cuidado">Dificultad de cuidado:</label>
+            <input type="range" name="dificultad-cuidado" min="1" max="5" value="3">    
+            <br>
+            <fieldset>
+                <legend>Selecciona el tipo de espacio</legend>
+                <label for="interior">Interior</label>
+                <input type="radio" id="interior" name="espacio" value="interior">
+                <label for="exterior">Exterior</label>
+                <input type="radio" id="exterior" name="espacio" value="exterior">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Selecciona el nivel de luz</legend>
+                <label for="luz-baja">Baja</label>
+                <input type="radio" id="luz-baja" name="luz" value="baja">
+                <label for="luz-media">Media</label>
+                <input type="radio" id="luz-media" name="luz" value="media">
+                <label for="luz-alta">Alta</label>
+                <input type="radio" id="luz-alta" name="luz" value="alta">
+            </fieldset>
+            <br>
+            <select name="frecuencia-riego" id="frecuencia-riego">
+                <option value="">Selecciona la frecuencia de riego</option>
+                <option value="diario">Diario</option>
+                <option value="semanal">Semanal</option>
+                <option value="quincenal">Quincenal</option>
+            </select>
+            <br>
+            <input type="submit" value="Buscar planta">
+
+        </form>
+    </div>
+</body>
+</html>
