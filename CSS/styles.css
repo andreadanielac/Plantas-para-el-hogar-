@@ -1,4 +1,4 @@
-main {
+body {
     padding: 20px;
     background-color: #f6f4e4;
 }
@@ -6,22 +6,20 @@ header{
     background-color: #c0e3a1;
     color: white;
     padding: 10px;
-    corner-radius: 20px 0px 0px 20px;
+    border-radius: 15px;
     text-align: center;
 }
-
 a{
     color: white;
     text-decoration: none;
     font-size: 24px;
     margin: 25px;
 }
-heade nav{
+header nav{
     display: inline-block;
     justify-content: center;
     padding: 20px;
 }
-
 .intro{
     padding: 10px;
     margin-bottom: 20px;
@@ -33,6 +31,7 @@ p{
     text-align: justify;
     line-height: 1.5;
     font-size: 16px;
+    color: #333;
 }
 mark{
     background-color: #bfec98;
@@ -162,4 +161,29 @@ iframe{
     border: 2px solid #c0e3a1;
     border-radius: 10px;
     align-self: center;
+}
+select:first-child{
+    color: #333;
+    font-size: 17px;
+    font-weight: bold;
+}
+.boton-buscar:hover{
+    background-color: #a0c17b;
+    cursor: pointer;
+}
+.boton-buscar:active{
+    background-color: #8ab05c;
+}
+a:visited{
+    color: #8ab05c;
+}
+a:last-child{
+    color: #333;
+    font-size: 16px;
+}
+footer p:nth-child(2){
+    background-color: #f6f5e9;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
 }
