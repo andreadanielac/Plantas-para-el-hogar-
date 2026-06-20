@@ -167,6 +167,10 @@ select:first-child{
     font-size: 17px;
     font-weight: bold;
 }
+a:last-child{
+    color: #333;
+    font-size: 16px;
+}
 .boton-buscar:hover{
     background-color: #a0c17b;
     cursor: pointer;
@@ -177,10 +181,7 @@ select:first-child{
 a:visited{
     color: #8ab05c;
 }
-a:last-child{
-    color: #333;
-    font-size: 16px;
-}
+
 footer p:nth-child(2){
     background-color: #f6f5e9;
     padding: 10px;
