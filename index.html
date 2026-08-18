@@ -9,14 +9,6 @@
 <body>
     <header>
         <h1>Bienvenido a Plantas para tu hogar</h1>
-        <!--Logo de la empresa
-       <svg width="50px" height="50px" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="48" height="48" fill="white" fill-opacity="0.01"/>
-<path d="M31 43C31 43 18 44 11 36C4 28 4 4 4 4C4 4 28 3 36 9C44 15 42 32 42 32" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M44 44C44 44 32.8207 35.5515 26 28C19.1793 20.4485 16 13 16 13" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M26 28L27 15" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M26 28L16 27" stroke="#000000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>-->
         <nav>
                 <a href="index.html">Inicio</a>
                 <a href="ornamentales.html">Plantas Ornamentales</a>
@@ -26,25 +18,27 @@
         </nav>
     </header>
     <main> 
-    <article>
-        <div class="multimedia">
-            <section>
-            <video controls autoplay width="320" height="240" loop muted>
-                <source src="assets/15740052_1080_1920_60fps.mp4" type="video/mp4">
-            </video>   
-        </section>
-        <section> 
-            <audio controls autoplay loop>
-                <source src="assets/crickets-birds-in-windy-meadow-ivo-vicic-1-01-42.mp3" type="audio/mp3">
-            </audio>
-        </section>
-        </div>
-        <section class="intro">
-             <h2>¿Por qué tener plantas en casa?</h2>
-             <p>Las plantas no solo embellecen nuestros hogares, sino que también ofrecen numerosos <b>beneficios</b> para nuestra salud y bienestar.
-                 <br> Tener plantas en casa puede mejorar la <i>calidad del aire</i>, aumentar la humedad, <em>reducir el estrés</em> y promover un ambiente más relajante.
-                 <br> Además, cuidar de las plantas puede ser una <mark>actividad terapéutica</mark> que nos conecta con la naturaleza y nos brinda una sensación de logro al verlas crecer y florecer.</p>
-        </section>  
+    <article class="contenido-principal">
+        <div class="welcome">
+            <div class="multimedia">
+                <section>
+                <video controls autoplay width="320" height="240" loop muted>
+                    <source src="assets/15740052_1080_1920_60fps.mp4" type="video/mp4">
+                </video>   
+            </section>
+            <section> 
+                <audio controls autoplay loop>
+                    <source src="assets/crickets-birds-in-windy-meadow-ivo-vicic-1-01-42.mp3" type="audio/mp3">
+                </audio>
+            </section>
+            </div>
+            <section class="intro">
+                <h2>¿Por qué tener plantas en casa?</h2>
+                <p>Las plantas no solo embellecen nuestros hogares, sino que también ofrecen numerosos <b>beneficios</b> para nuestra salud y bienestar.
+                    <br> Tener plantas en casa puede mejorar la <i>calidad del aire</i>, aumentar la humedad, <em>reducir el estrés</em> y promover un ambiente más relajante.
+                    <br> Además, cuidar de las plantas puede ser una <mark>actividad terapéutica</mark> que nos conecta con la naturaleza y nos brinda una sensación de logro al verlas crecer y florecer.</p>
+            </section> 
+        </div> 
         <section class="contenido">
             <h1><u>Decora tu hogar</u></h1>
             <h2>Plantas adecuadas para cada espacio</h2>
@@ -55,7 +49,12 @@
                 <li>Reducen el estrés</li>
             </ol>  
             <p>Descubre las mejores plantas para decorar tu hogar y mejorar tu calidad de vida.</p>
-        
+            <div>
+                <img src="./img/planta1.jpg">
+                <img src="./img/planta2.jpg">
+                <img src="./img/planta3.jpg">
+                
+            </div>
         </section>
         
         <section class="tipos-plantas">
@@ -71,39 +70,7 @@
         </section>
     </article>  
     <hr>
-    <section>
-        <table border="1" cellpadding="12">
-            <caption>Lista de plantas  </caption>
-            <thead bgcolor="#c0e3a1">
-                <tr>
-                    <th>Nombre</th>
-                    <th>Descripción</th>
-                    <th>Cuidados</th>
-                    <th>Imagen</th>
-                </tr>
-            </thead>
-            <tbody align="center">
-                <tr>
-                    <td>Helecho</td>
-                    <td>Planta de hojas verdes y delicadas</td>
-                    <td>Riego moderado, luz indirecta</td>
-                    <td><img src="img/Helecho3.jpg" alt="Helecho" width="300"></td>
-                </tr>
-                <tr>
-                    <td>Cactus</td>
-                    <td>Planta suculenta con espinas</td>
-                    <td>Poca agua, mucha luz solar</td>
-                    <td><img src="img/cactus2.jpeg" alt="Cactus" width="300"></td>    
-                </tr>
-                <tr>
-                    <td>Orquídea</td>
-                    <td>Planta de flores coloridas y elegantes</td>
-                    <td>Riego regular, humedad alta</td>
-                    <td><img src="img/orquideas.jpg" alt="Orquídea" width="300"></td>        
-                </tr>
-            </tbody>
-        </table>
-    </section>
+   
     <!--Formulario de búsqueda para encontrar la planta perfecta -->
     <section class="busqueda"> 
         <h2>Encuentra la planta perfecta para ti de acuerdo a tu espacio</h2>
