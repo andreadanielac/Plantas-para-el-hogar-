@@ -28,7 +28,8 @@ header h1{
     margin: 10px;
     background-color: #f6f5e9;
     border-radius: 15px;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 a{
     color: white;
@@ -43,6 +44,7 @@ header nav{
     padding: 10px;
     box-sizing: border-box;
 }
+
 .intro{
     padding: 10px;
     margin-bottom: 20px;
@@ -99,6 +101,17 @@ ul{
     color: #333;
     font-size: 16px;
 }
+.galery{
+   display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    box-sizing: border-box;
+    padding: 3% 10%;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px dotted #c0e3a1;
+}
 table{
     width: 100%;
     border-collapse: collapse;
@@ -114,6 +127,11 @@ caption{
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 25px;
 }
 .busqueda{
     padding: 20px;
@@ -133,6 +151,7 @@ caption{
 .formulario{
     margin: 10px 0;
     font-size: 16px;
+    width: 500px;
 }
 .formulario label{
     display: block;
@@ -143,7 +162,7 @@ caption{
 .formulario input[type="color"],
 .formulario input[type="range"],
 .formulario select{
-    width: 30%;
+    width: 80%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -169,8 +188,9 @@ caption{
     border-radius: 10px;
 }
 .boton-buscar{
-    display: block;
-    width: 50%;
+    display: flex;
+    width: 60%;
+    height: fit-content;
     padding: 10px;
     background-color: #c0e3a1;
     color: white;
@@ -203,10 +223,16 @@ select:first-child{
 a:visited{
     color: #8ab05c;
 }
-
-footer p:nth-child(2){
-    background-color: #f6f5e9;
-    padding: 10px;
+a.email, footer p{
     font-size: 14px;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
     text-align: center;
+    background-color: #c0e3a1;
+    flex-direction: column;
+    align-items: flex-end;
 }
