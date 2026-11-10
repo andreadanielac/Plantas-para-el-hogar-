@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Plantas para tu hogar</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a Plantas para tu hogar</h1>
+        <h1>PlantsWorld</h1>
+        
         <nav>
                 <a href="index.html">Inicio</a>
-                <a href="ornamentales.html">Plantas Ornamentales</a>
-                <a href="medicinales.html">Plantas Medicinales</a>
-                <a href="comestibles.html">Plantas Comestibles</a>
-                <a href="aromaticas.html">Plantas Aromáticas</a>
+                <a href="Galeria.html">Galeria de ideas</a>
+                <a href="Store.html">Tienda</a>
+                <a href="Tipos.html">Tipos de plantas</a>
         </nav>
     </header>
     <main> 
@@ -33,13 +34,14 @@
             </section>
             </div>
             <section class="intro">
+                <h1>Bienvenido a Plantas para tu hogar</h1>
                 <h2>¿Por qué tener plantas en casa?</h2>
                 <p>Las plantas no solo embellecen nuestros hogares, sino que también ofrecen numerosos <b>beneficios</b> para nuestra salud y bienestar.
                     <br> Tener plantas en casa puede mejorar la <i>calidad del aire</i>, aumentar la humedad, <em>reducir el estrés</em> y promover un ambiente más relajante.
                     <br> Además, cuidar de las plantas puede ser una <mark>actividad terapéutica</mark> que nos conecta con la naturaleza y nos brinda una sensación de logro al verlas crecer y florecer.</p>
                 <section class="contenido">
-                    <h1><u>Decora tu hogar</u></h1>
-                    <h3>Beneficios de tener plantas en casa</h3>
+                    <h2>Decora tu hogar</h2>
+                    <h3>Beneficios de tener plantas en casa: </h3>
                     <ol>
                         <li>Mejoran la calidad del aire</li>
                         <li>Aumentan la humedad</li>
@@ -49,7 +51,7 @@
                 </section>
             </section> 
         </div> 
-       <h2>Plantas adecuadas para cada espacio</h2>
+       <h2><u>Plantas adecuadas para cada espacio</u></h2>
         <div class="galery">
             
                 <img src="./img/planta1.jpg" width="300">
@@ -66,9 +68,9 @@
         </h3>
         <ul>
             <li><span><a href="ornamentales.html">Ornamentales</a></span></li>
-            <li><span><a href="medicinales.html">Medicinales</a></span></li>
-            <li><span><a href="comestibles.html">Comestibles</a></span></li>
-            <li><span><a href="aromaticas.html">Aromáticas</a></span></li>
+            <li><span>Medicinales</span></li>
+            <li><span>Comestibles</span></li>
+            <li><span>Aromáticas</span></li>
         </ul>
         </section>
     </article>  
@@ -81,11 +83,11 @@
         <form>
             <div class="formulario">
                 <label for="altura">Altura máxima (cm):</label>
-                <input type="number" name="altura" placeholder="Altura máxima (cm)">
+                <input type="number" name="altura"  id="altura" placeholder="Altura máxima (cm)">
             </div>
             <div class="formulario">
                 <label for="ancho">Ancho máximo (cm):</label>
-                <input type="number" name="ancho" placeholder="Ancho máximo (cm)">
+                <input type="number" name="ancho" id="ancho" placeholder="Ancho máximo (cm)">
             </div>
             <div class="formulario">
                 <label for="floracion">¿Quieres que florezca?</label>
@@ -93,11 +95,11 @@
             </div>
             <div class="formulario">
                 <label for="color-flores">Color de las flores:</label>
-                <input type="color" name="color-flores" placeholder="Color de las flores">
+                <input type="color" name="color-flores" id="color-flores" placeholder="Color de las flores">
             </div>
             <div class="formulario">
                 <label for="dificultad-cuidado">Dificultad de cuidado:</label>
-                <input type="range" name="dificultad-cuidado" min="1" max="5" value="3">
+                <input type="range" name="dificultad-cuidado" id="dificultad-cuidado" min="1" max="5" value="3">
             </div>
             <div class="formulario">
                 <fieldset>
@@ -134,7 +136,7 @@
     </main>
     <footer>
         <p>&copy; <small>Plantas para tu hogar. Todos los derechos reservados.</small> </p>
-        <p>&starf;Contacto: <a href="mailto:info@plantasparatuhogar.com" class="email">info&commat;plantasparatuhogar.com</a></p>   
+        <p>Contacto: <a href="mailto:info@plantasparatuhogar.com" class="email">info&commat;plantasparatuhogar.com</a></p>   
     </footer>   
 </body>
 </html>
